@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projectpartners van DPARt, georganiseerd per rol binnen het project.">
+  <link rel="icon" type="image/png" href="images/Logo_transparant.png">
+  <title>DPARt | Partners</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="partners">
+  <header class="navbar">
+    <a class="navbar-logo" href="index.html" aria-label="DPARt home">
+      <img src="images/Logo_without_text.png" alt="DPARt-logo">
+    </a>
+    <nav class="navbar-menu" aria-label="Hoofdnavigatie">
+      <a href="index.html#about" data-i18n="navAbout">Over het project</a>
+      <a href="index.html#themes" data-i18n="navThemes">Thema's</a>
+      <a href="index.html#results" data-i18n="navResults">Resultaten</a>
+      <a href="index.html#news" data-i18n="navNews">Nieuws & events</a>
+      <a href="index.html#partners" data-i18n="navPartners">Partners</a>
+      <a href="index.html#contact" data-i18n="navContact">Contact</a>
+      <div class="language-switch" role="group" aria-label="Language selection">
+        <button class="language-button active" type="button" data-language="nl" aria-pressed="true">NL</button>
+        <span aria-hidden="true">|</span>
+        <button class="language-button" type="button" data-language="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+    <button class="menu-button" id="menuButton" type="button" aria-label="Open navigatiemenu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about" data-i18n="navAbout">Over het project</a>
+    <a href="index.html#themes" data-i18n="navThemes">Thema's</a>
+    <a href="index.html#results" data-i18n="navResults">Resultaten</a>
+    <a href="index.html#news" data-i18n="navNews">Nieuws & events</a>
+    <a href="index.html#partners" data-i18n="navPartners">Partners</a>
+    <a href="index.html#contact" data-i18n="navContact">Contact</a>
+    <div class="language-switch mobile-language-switch">
+      <button class="language-button active" type="button" data-language="nl" aria-pressed="true">NL</button>
+      <span aria-hidden="true">|</span>
+      <button class="language-button" type="button" data-language="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+
+  <main class="subpage-main">
+    <section class="subpage-hero partners-page-hero">
+      <div class="container">
+        <a class="back-link" href="index.html">← <span data-i18n="backHome">Terug naar home</span></a>
+        <p class="eyebrow">DPARt</p>
+        <h1 data-i18n="partnersPageTitle">Projectpartners</h1>
+        <p class="subpage-lead" data-i18n="partnersPageIntro">DPARt brengt kennisinstellingen, technologiepartners, gemeenten en praktijkorganisaties samen. Iedere partner draagt vanuit een eigen expertise bij aan het project.</p>
+      </div>
+    </section>
+
+    <section class="partner-groups-section">
+      <div class="container partner-groups">
+        <article class="partner-group partner-group-blue">
+          <div class="partner-group-copy">
+            <p class="partner-group-number">01</p>
+            <h2 data-i18n="partnerGroupSocialTitle">Social Science</h2>
+            <p data-i18n="partnerGroupSocialText">Burgerbetrokkenheid & participatief ontwerp</p>
+          </div>
+          <div class="partner-group-logos">
+            <div class="partner-group-logo"><img src="images/HU_logo.png" alt="Hogeschool Utrecht"></div>
+            <div class="partner-group-logo"><img src="images/TUe_logo.png" alt="Technische Universiteit Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/GE_logo.png" alt="Gemeente Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/Fontys_logo.png" alt="Fontys"></div>
+            <div class="partner-group-logo"><img src="images/GFH_logo.png" alt="Games for Health"></div>
+            <div class="partner-group-logo"><img src="images/Shinto_Labs_logo.png" alt="Shinto Labs"></div>
+          </div>
+        </article>
+
+        <article class="partner-group partner-group-yellow">
+          <div class="partner-group-copy">
+            <p class="partner-group-number">02</p>
+            <h2 data-i18n="partnerGroupEngineeringTitle">Environmental Engineering</h2>
+            <p data-i18n="partnerGroupEngineeringText">Simulatie van collectieve besluitvorming & Digital Twin</p>
+          </div>
+          <div class="partner-group-logos">
+            <div class="partner-group-logo"><img src="images/TUe_logo.png" alt="Technische Universiteit Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/Fontys_logo.png" alt="Fontys"></div>
+            <div class="partner-group-logo"><img src="images/HU_logo.png" alt="Hogeschool Utrecht"></div>
+            <div class="partner-group-logo"><img src="images/TYGRON_PLATFORM_logo.png" alt="Tygron Platform"></div>
+          </div>
+        </article>
+
+        <article class="partner-group partner-group-green">
+          <div class="partner-group-copy">
+            <p class="partner-group-number">03</p>
+            <h2 data-i18n="partnerGroupAiTitle">AI and IT Experts</h2>
+            <p data-i18n="partnerGroupAiText">Chatbots & Serious Games</p>
+          </div>
+          <div class="partner-group-logos">
+            <div class="partner-group-logo"><img src="images/Fontys_logo.png" alt="Fontys"></div>
+            <div class="partner-group-logo"><img src="images/TUe_logo.png" alt="Technische Universiteit Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/GFH_logo.png" alt="Games for Health"></div>
+            <div class="partner-group-logo"><img src="images/Gemeente_Veenendaal_logo.webp" alt="Gemeente Veenendaal"></div>
+            <div class="partner-group-logo"><img src="images/Shinto_Labs_logo.png" alt="Shinto Labs"></div>
+          </div>
+        </article>
+
+        <article class="partner-group partner-group-community">
+          <div class="partner-group-copy">
+            <p class="partner-group-number">04</p>
+            <h2 data-i18n="partnerGroupCommunityTitle">Community of Practice</h2>
+            <p data-i18n="partnerGroupCommunityText">Gemeenten, regionale organisaties, energieorganisaties en vertegenwoordigers van eindgebruikers</p>
+          </div>
+          <div class="partner-group-logos partner-group-logos-community">
+            <div class="partner-group-logo"><img src="images/HEB_logo.png" alt="Het Energie Bureau"></div>
+            <div class="partner-group-logo"><img src="images/MRE_logo.png" alt="Metropoolregio Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/ROM_logo.png" alt="ROM Utrecht Region"></div>
+            <div class="partner-group-logo"><img src="images/BE_logo.png" alt="Brainport Eindhoven"></div>
+            <div class="partner-group-logo"><img src="images/ESF_logo.png" alt="Energie Samen"></div>
+            <div class="partner-group-logo"><img src="images/MW_logo.png" alt="Projectpartner"></div>
+            <div class="partner-group-logo"><img src="images/VE_om.webp" alt="Projectpartner"></div>
+            <div class="partner-group-logo"><img src="images/VvE_belang_logo.png" alt="VvE Belang"></div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <img class="footer-logo" src="images/Logo_DPARt.png" alt="DPARt-logo">
+        <p class="footer-note" data-i18n="urbanLabNote">DPARt is onderdeel van het Urban Resilience Lab.</p>
+      </div>
+      <div class="footer-contact">
+        <p data-i18n="contactTitle">Neem contact op</p>
+        <a href="mailto:info@example.nl">info@example.nl</a>
+        <a class="section-button footer-contact-button" href="contact.html">
+          <span data-i18n="viewContactPage">Bekijk de contactpagina</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+      
+      <div class="footer-details">
+        <div class="footer-address-block">
+          <p class="footer-heading" data-i18n="addressTitle">Adres</p>
+          <a
+            class="footer-address"
+            href="https://www.google.com/maps/place/Vertigo/@51.4463122,5.485064,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6d91e266d62e9:0xbd166703870cba44!8m2!3d51.4463122!4d5.485064!16s%2Fg%2F11c37nh8nc?entry=ttu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vertigo, 9th Floor<br>
+            Den Dolech 2<br>
+            5612 AZ Eindhoven
+          </a>
+        </div>
+
+        <div class="footer-social-block">
+          <p class="footer-heading" data-i18n="followTitle">Volg DPARt</p>
+          <a
+            class="linkedin-link"
+            href="https://www.linkedin.com/showcase/dpart-project/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="DPARt op LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5.2 3.5A2.2 2.2 0 1 1 5.2 8a2.2 2.2 0 0 1 0-4.5ZM3.4 9.6H7v11H3.4v-11Zm5.8 0h3.4v1.5h.1c.5-.9 1.7-1.9 3.6-1.9 3.8 0 4.5 2.5 4.5 5.8v5.6h-3.6v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.7v5.1H9.2v-11Z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <p class="footer-funding" data-i18n="fundingAcknowledgement">
+          Financiering: DPARt wordt gefinancierd door NWO.
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 DPARt</p>
+        <a href="index.html" data-i18n="backHome">Terug naar home ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
