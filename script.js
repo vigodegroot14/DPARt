@@ -7,6 +7,14 @@ let currentLanguage = "nl";
 
 const translations = {
   nl: {
+    skipToContent: "Ga naar de inhoud",
+    homeLabel: "DPARt home",
+    mainNavigation: "Hoofdnavigatie",
+    mobileNavigation: "Mobiele navigatie",
+    languageSelection: "Taalkeuze",
+    openMenu: "Open navigatiemenu",
+    closeMenu: "Sluit navigatiemenu",
+    linkedInLabel: "DPARt op LinkedIn",
     navAbout: "Over het project",
     navThemes: "Thema's",
     navResults: "Resultaten",
@@ -149,6 +157,14 @@ const translations = {
   },
 
   en: {
+    skipToContent: "Skip to content",
+    homeLabel: "DPARt home",
+    mainNavigation: "Main navigation",
+    mobileNavigation: "Mobile navigation",
+    languageSelection: "Language selection",
+    openMenu: "Open navigation menu",
+    closeMenu: "Close navigation menu",
+    linkedInLabel: "DPARt on LinkedIn",
     navAbout: "About",
     navThemes: "Research",
     navResults: "Results",
@@ -291,6 +307,27 @@ const translations = {
   }
 };
 
+const pageMetadata = {
+  nl: {
+    home: ["DPARt | Samen beslissen over duurzame energierenovatie", "DPARt ontwikkelt digitale hulpmiddelen voor gezamenlijke besluitvorming over energierenovatie binnen Verenigingen van Eigenaars."],
+    about: ["Over DPARt | Duurzame energierenovatie", "Lees waarom DPARt digitale hulpmiddelen ontwikkelt voor transparante en gezamenlijke besluitvorming over energierenovatie."],
+    research: ["Onderzoek | DPARt", "Ontdek het DPARt-onderzoek naar co-creatie, Digital Twins, AI en gamification voor gezamenlijke energierenovatie."],
+    results: ["Resultaten | DPARt", "Bekijk de digitale hulpmiddelen en kennisproducten die DPARt ontwikkelt voor collectieve besluitvorming over energierenovatie."],
+    news: ["Nieuws en evenementen | DPARt", "Lees updates over DPARt-workshops, projectactiviteiten, evenementen en onderzoeksresultaten."],
+    partners: ["Projectpartners | DPARt", "Bekijk de kennisinstellingen, technologiepartners, gemeenten en praktijkorganisaties die samenwerken binnen DPARt."],
+    contact: ["Contact | DPARt", "Neem contact op met het DPARt-projectteam voor vragen over onderzoek, samenwerking en communicatie."]
+  },
+  en: {
+    home: ["DPARt | Collective decisions on sustainable energy renovation", "DPARt develops digital tools for collective decision-making on energy renovation within homeowners' associations."],
+    about: ["About DPARt | Sustainable energy renovation", "Learn why DPARt develops digital tools for transparent, collective decision-making on energy renovation."],
+    research: ["Research | DPARt", "Explore DPARt research into co-creation, Digital Twins, AI and gamification for collective energy renovation."],
+    results: ["Results | DPARt", "View the digital tools and knowledge products DPARt develops for collective decision-making on energy renovation."],
+    news: ["News and events | DPARt", "Read updates about DPARt workshops, project activities, events and research outcomes."],
+    partners: ["Project partners | DPARt", "Meet the knowledge institutions, technology partners, municipalities and practice organisations collaborating in DPARt."],
+    contact: ["Contact | DPARt", "Contact the DPARt project team with questions about research, collaboration and communications."]
+  }
+};
+
 function getTranslation(key) {
   return translations[currentLanguage]?.[key] ?? translations.nl[key] ?? key;
 }
@@ -306,6 +343,17 @@ function setLanguage(language) {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = getTranslation(element.dataset.i18n);
   });
+
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", getTranslation(element.dataset.i18nAriaLabel));
+  });
+
+  const page = document.body.dataset.page;
+  const metadata = pageMetadata[language]?.[page];
+  if (metadata) {
+    document.title = metadata[0];
+    document.querySelector('meta[name="description"]')?.setAttribute("content", metadata[1]);
+  }
 
   languageButtons.forEach((button) => {
     const isActive = button.dataset.language === language;
@@ -335,6 +383,7 @@ function toggleMobileMenu() {
   const isOpen = mobileMenu.classList.toggle("open");
   menuButton.classList.toggle("active", isOpen);
   menuButton.setAttribute("aria-expanded", String(isOpen));
+  menuButton.setAttribute("aria-label", getTranslation(isOpen ? "closeMenu" : "openMenu"));
   document.body.classList.toggle("menu-open", isOpen);
 }
 

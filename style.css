@@ -23,6 +23,12 @@
   box-sizing: border-box;
 }
 
+site-header,
+site-footer,
+site-email {
+  display: contents;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 95px;
@@ -51,6 +57,12 @@ a {
   color: inherit;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 4px;
+}
+
 button {
   font: inherit;
 }
@@ -62,6 +74,24 @@ button {
   );
 
   margin-inline: auto;
+}
+
+.skip-link {
+  position: fixed;
+  z-index: 2000;
+  top: 12px;
+  left: 12px;
+  padding: 12px 18px;
+  background: var(--dark-blue);
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-150%);
+  transition: transform 180ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 /* =========================================================
@@ -140,6 +170,10 @@ button {
 .navbar-menu a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
+}
+
+.navbar-menu a:focus-visible::after {
+  transform: scaleX(1);
 }
 
 /* =========================================================

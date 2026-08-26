@@ -1,74 +1,57 @@
-DPARt website - reviewed version
+DPARt website
+=============
 
-Included pages
---------------
-index.html
-about.html
-research.html
-results.html
-news.html
-partners.html
-contact.html
+Statische, tweetalige projectwebsite voor DPARt. Er is geen installatie,
+framework of buildstap nodig: publiceer de bestanden in deze map gezamenlijk
+op een statische webserver.
 
-Shared files
-------------
-style.css
-script.js
+Lokaal bekijken
+---------------
 
-Changes in this version
------------------------
-- Added a LinkedIn link/icon in the footer on every page.
-  Public URL:
-  https://www.linkedin.com/showcase/dpart-project/
+Gebruik bij voorkeur een lokale webserver in plaats van de HTML-bestanden
+rechtstreeks te openen. Bijvoorbeeld met een editor-extensie of een lokale
+HTTP-server. Open daarna index.html via localhost.
 
-- Added the project address in every footer:
-  Vertigo, 9th Floor
-  Den Dolech 2
-  5612 AZ Eindhoven
-
-- Added an NWO funding acknowledgement in the footer.
-
-- Applied all 8 comments from "DPARt website design v1.docx":
-  1. Updated homepage About text.
-  2. Updated AI & Games preview text.
-  3. Updated Results preview text.
-  4. Added NWO funding acknowledgement.
-  5. Changed "digital support" to "digital support tools" on About.
-  6. Added VvE experts to Collaboration.
-  7. Replaced Digital Twin description on Research.
-  8. Replaced AI/Gamification title and description on Research.
-
-- Dutch translations were updated to match the revised English meaning.
-
-- Improved the project-partner detail cards:
-  the text column is wider and there is more spacing between long headings
-  (especially "Environmental Engineering") and the logo grid.
-
-- Visualisation.png remains uncropped:
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-
-Important
+Structuur
 ---------
-Keep your existing images folder next to these files.
 
-The website still contains info@example.nl as a placeholder email address.
-Replace this with the official DPARt email address before publication.
+- index.html: homepage
+- about.html: achtergrond en doelstellingen
+- research.html: onderzoeksthema's
+- results.html: resultaten en hulpmiddelen
+- news.html: nieuws en evenementen
+- partners.html: projectpartners per expertisegroep
+- contact.html: contactpagina
+- site-components.js: gedeelde header, navigatie, footer en sitegegevens
+- script.js: vertalingen, taalkeuze, mobiel menu en scrollanimaties
+- style.css: alle vormgeving en responsieve regels
+- images/: beeldmateriaal en partnerlogo's
 
+Veelvoorkomende wijzigingen
+---------------------------
 
-Latest partner feedback applied
--------------------------------
-- Homepage About text updated:
-  English: "Buildings with homeowners’ associations..."
-  and "...or proposals get rejected by other owners."
-  Dutch: "Gebouwen met Verenigingen van Eigenaars..."
-- Social Science: Gemeente Eindhoven replaced by Gemeente Veenendaal.
-- Coders'Co added to Social Science, Environmental Engineering and AI and IT Experts.
-- Coders'Co added to the homepage partner slider.
-- Coders'Co links to https://codersco.com/
-- Expected Coders'Co image filename: images/codersco.png
-- Gemeente Eindhoven added to Community of Practice.
-- Community of Practice copy updated to include energy cooperations,
-  VvE experts and end-user representatives.
-- Dutch Community of Practice text updated accordingly.
+- Wijzig het e-mailadres één keer in `siteConfig` bovenaan site-components.js.
+- Wijzig navigatie, adres, LinkedIn of footer in site-components.js.
+- Wijzig Nederlandse en Engelse teksten in script.js. De zichtbare Nederlandse
+  tekst in de HTML dient als toegankelijke standaardinhoud.
+- Voeg unieke paginainhoud toe aan het bijbehorende HTML-bestand.
+- Voeg algemene vormgeving toe aan style.css.
+
+Publicatiecontrole
+------------------
+
+- Vervang info@example.nl door het officiële DPARt-adres.
+- Controleer beide talen en alle pagina's op desktop en mobiel.
+- Controleer nieuwe afbeeldingen op bestandsgrootte en gebruik lazy-loading voor
+  afbeeldingen die niet direct bovenaan de pagina zichtbaar zijn.
+- Controleer externe links en partnernamen.
+
+Technische uitgangspunten
+-------------------------
+
+- Native Web Components voorkomen dubbele headers en footers zonder externe
+  afhankelijkheden of een buildproces toe te voegen.
+- De taalvoorkeur wordt lokaal in de browser opgeslagen.
+- Elke pagina heeft een eigen titel en metabeschrijving; deze worden bij een
+  taalwisseling eveneens vertaald.
+- Animaties respecteren de systeeminstelling voor minder beweging.
