@@ -60,7 +60,7 @@ class SiteFooter extends HTMLElement {
       <footer id="contact">
         <div class="container footer-content">
           <div>
-            <img class="footer-logo" src="images/Logo_DPARt.png" alt="DPARt" width="1181" height="290" loading="lazy">
+            <img class="footer-logo" src="images/Logo_DPARt.png" alt="DPARt" width="340" height="379" loading="lazy">
             <p class="footer-note" data-i18n="urbanLabNote">DPARt is onderdeel van het Urban Resilience Lab.</p>
           </div>
           <div class="footer-contact">

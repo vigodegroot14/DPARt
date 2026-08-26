@@ -1728,6 +1728,7 @@ footer {
 
 .footer-logo {
   width: min(330px, 70vw);
+  height: auto;
 }
 
 .footer-note {
