@@ -55,3 +55,20 @@ Keep your existing images folder next to these files.
 
 The website still contains info@example.nl as a placeholder email address.
 Replace this with the official DPARt email address before publication.
+
+
+Latest partner feedback applied
+-------------------------------
+- Homepage About text updated:
+  English: "Buildings with homeowners’ associations..."
+  and "...or proposals get rejected by other owners."
+  Dutch: "Gebouwen met Verenigingen van Eigenaars..."
+- Social Science: Gemeente Eindhoven replaced by Gemeente Veenendaal.
+- Coders'Co added to Social Science, Environmental Engineering and AI and IT Experts.
+- Coders'Co added to the homepage partner slider.
+- Coders'Co links to https://codersco.com/
+- Expected Coders'Co image filename: images/codersco.png
+- Gemeente Eindhoven added to Community of Practice.
+- Community of Practice copy updated to include energy cooperations,
+  VvE experts and end-user representatives.
+- Dutch Community of Practice text updated accordingly.

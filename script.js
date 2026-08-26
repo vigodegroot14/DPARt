@@ -25,7 +25,7 @@ const translations = {
     aboutLabel: "Over het project",
     aboutTitle: "Betere gezamenlijke beslissingen",
     aboutParagraph1:
-      "Gebouwen van Verenigingen van Eigenaars zijn vaak ouder en minder energiezuinig dan andere woningen. Zelfs wanneer enkele eigenaren enthousiast zijn om hun gebouw te verduurzamen, kost besluitvorming vaak veel tijd of worden voorstellen door andere eigenaren afgewezen.",
+      "Gebouwen met Verenigingen van Eigenaars zijn vaak ouder en minder energiezuinig dan andere woningen. Zelfs wanneer enkele eigenaren enthousiast zijn om hun gebouw te verduurzamen, kost besluitvorming vaak veel tijd of worden voorstellen door andere eigenaren afgewezen.",
     aboutParagraph2:
       "Bewoners hebben verschillende wensen, ervaren verschillende belemmeringen en verschillen in kennisniveau. DPARt onderzoekt hoe digitale hulpmiddelen dit proces toegankelijker, begrijpelijker en transparanter kunnen maken.",
     readMoreAbout: "Lees meer over DPARt",
@@ -96,7 +96,7 @@ const translations = {
     partnerGroupAiText: "Chatbots & Serious Games",
     partnerGroupCommunityTitle: "Community of Practice",
     partnerGroupCommunityText:
-      "Gemeenten, regionale organisaties, energieorganisaties en vertegenwoordigers van eindgebruikers",
+      "Gemeenten, regionale organisaties, energiecoöperaties, VvE-experts en vertegenwoordigers van eindgebruikers",
 
     aboutPageTitle: "Over DPARt",
     aboutPageIntro:
@@ -167,7 +167,7 @@ const translations = {
     aboutLabel: "About the project",
     aboutTitle: "Better collective decision-making",
     aboutParagraph1:
-      "Homeowners’ associations are often older and less energy efficient than other homes. Even with a few owners who are enthusiastic to make their building more sustainable, decision-making often takes a lot of time or gets rejected by other owners.",
+      "Buildings with homeowners’ associations are often older and less energy efficient than other homes. Even when a few owners are enthusiastic about making their building more sustainable, decision-making often takes a lot of time or proposals get rejected by other owners.",
     aboutParagraph2:
       "Residents have different wishes and barriers they perceive and levels of knowledge. DPARt investigates how digital tools can make this process more accessible, easier to understand and more transparent.",
     readMoreAbout: "Learn more about DPARt",
@@ -238,7 +238,7 @@ const translations = {
     partnerGroupAiText: "Chatbots & Serious Games",
     partnerGroupCommunityTitle: "Community of Practice",
     partnerGroupCommunityText:
-      "Municipalities, regional organisations, energy organisations and end-user representatives",
+      "Municipalities, regional organisations, energy cooperations, VvE experts and end-user representatives",
 
     aboutPageTitle: "About DPARt",
     aboutPageIntro:
