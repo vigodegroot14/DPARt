@@ -49,9 +49,92 @@
       </div>
     </section>
 
-    <section class="image-section">
-      <div class="image-wrapper reveal">
-        <img loading="lazy" src="images/Visualisation.png" alt="Visualisatie van het DPARt-onderzoeksproject">
+    <section class="image-section" aria-labelledby="project-map-title">
+      <div class="project-map reveal">
+        <div class="project-map-top">
+          <section class="expertise-panel">
+            <h2 class="ornament-title" id="project-map-title" data-i18n="mapExpertiseTitle">Our Expertise</h2>
+            <ul class="expertise-list">
+              <li class="expertise-item expertise-social" data-i18n="mapSocial">Social Science</li>
+              <li class="expertise-item expertise-engineering" data-i18n="mapEngineering">Environmental Engineering</li>
+              <li class="expertise-item expertise-ai" data-i18n="mapAi">AI and IT experts</li>
+              <li class="expertise-item expertise-community" data-i18n="mapCommunity">Community of Practice</li>
+            </ul>
+          </section>
+
+          <section class="yearly-panel" aria-labelledby="yearly-title">
+            <h2 id="yearly-title" data-i18n="mapYearlyTitle">Yearly Steps</h2>
+            <div class="yearly-steps">
+              <article class="yearly-step">
+                <div class="map-icon" aria-hidden="true">
+                  <svg viewBox="0 0 64 64">
+                    <g transform="translate(3 3) rotate(-45 32 32)">
+                      <path d="M30 5h4v38h-4Z"/>
+                      <path d="m32 0 4 5h-8l4-5Z"/>
+                      <path d="M29 43h6l2 3v10a5 5 0 0 1-10 0V46l2-3Z"/>
+                    </g>
+                    <path class="tool-crossing-mask" d="M46 7a12 12 0 0 0-12 15L12 44a6 6 0 1 0 8 8l22-22A12 12 0 0 0 57 17l-8 8-8-2-2-8 8-8h-1Z"/>
+                    <path d="M46 7a12 12 0 0 0-12 15L12 44a6 6 0 1 0 8 8l22-22A12 12 0 0 0 57 17l-8 8-8-2-2-8 8-8h-1Z"/>
+                    <circle cx="16" cy="48" r="2"/>
+                  </svg>
+                </div>
+                <h3 data-i18n="mapDevelopmentTitle">Tool Development</h3>
+                <p data-i18n="mapDevelopmentText">Design and build tools that solve real-world challenges.</p>
+              </article>
+              <article class="yearly-step">
+                <div class="map-icon" aria-hidden="true">
+                  <svg viewBox="0 0 64 64"><rect x="14" y="10" width="36" height="49" rx="2"/><path d="M25 10V7h14v3M21 23l3 3 5-6M34 24h10M21 36l3 3 5-6M34 37h10M21 49l3 3 5-6M34 50h10"/></svg>
+                </div>
+                <h3 data-i18n="mapEvaluationTitle">Tool Evaluation</h3>
+                <p data-i18n="mapEvaluationText">Assess performance, validate impact, and ensure quality.</p>
+              </article>
+              <article class="yearly-step">
+                <div class="map-icon" aria-hidden="true">
+                  <svg viewBox="0 0 64 64"><path d="m14 47 5-14 26-26 10 10-26 26-15 4Z"/><path d="m40 12 10 10M19 33l10 10M14 53h29"/></svg>
+                </div>
+                <h3 data-i18n="mapDesignTitle">Tool Design</h3>
+                <p data-i18n="mapDesignText">Create intuitive, scalable, and user-centered designs.</p>
+              </article>
+            </div>
+          </section>
+
+          <section class="impact-panel" aria-labelledby="impact-title">
+            <h2 id="impact-title" data-i18n="mapImpactTitle">Our Impact</h2>
+            <ul class="impact-list">
+              <li>
+                <div class="impact-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><circle cx="32" cy="19" r="7"/><circle cx="15" cy="25" r="5"/><circle cx="49" cy="25" r="5"/><path d="M19 51v-7c0-8 5-13 13-13s13 5 13 13v7M5 49v-6c0-6 4-10 10-10 3 0 5 1 7 3M59 49v-6c0-6-4-10-10-10-3 0-5 1-7 3"/></svg></div>
+                <span data-i18n="mapImpactInclusive">Faster, more inclusive renovation</span>
+              </li>
+              <li>
+                <div class="impact-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M22 8h20v25h10L32 56 12 33h10V8Z"/><path d="M36 20c-1-4-9-4-9 1 0 5 10 2 10 7 0 5-9 5-10 1M32 15v19"/></svg></div>
+                <span data-i18n="mapImpactCost">Reduction of manpower and training cost</span>
+              </li>
+              <li>
+                <div class="impact-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M6 13c10-2 18 0 26 6v35c-8-6-16-8-26-6V13ZM58 13c-10-2-18 0-26 6v35c8-6 16-8 26-6V13Z"/><path d="M12 20v21c6 0 11 1 15 4M52 20v21c-6 0-11 1-15 4"/></svg></div>
+                <span data-i18n="mapImpactKnowledge">Efficient knowledge transfer</span>
+              </li>
+            </ul>
+          </section>
+        </div>
+
+        <section class="plan-panel" aria-labelledby="plan-title">
+          <div class="plan-intro">
+            <h2 id="plan-title" data-i18n="mapPlanTitle">The Plan</h2>
+            <p data-i18n="mapPlanText">A phased roadmap to innovate, validate and scale impact</p>
+          </div>
+          <div class="roadmap">
+            <ol class="roadmap-stages">
+              <li><strong data-i18n="mapConcept">Conceptualization<br>(TRL-4)</strong><span class="milestone-label" data-i18n="mapKickoff">Kick-off</span><span class="roadmap-diamond"></span><span class="roadmap-dot"></span><b>2026</b></li>
+              <li><strong data-i18n="mapPrototype">Prototype</strong><span class="roadmap-dot"></span><b>2027</b></li>
+              <li><strong data-i18n="mapRefinement">Refinement</strong><span class="roadmap-dot"></span><b>2028</b></li>
+              <li><strong data-i18n="mapUpscale">Upscale (TRL-7)</strong><span class="milestone-label" data-i18n="mapLaunch">Launch tool</span><span class="roadmap-diamond"></span><span class="roadmap-dot"></span><b>2029</b></li>
+              <li><strong><span class="visually-hidden" data-i18n="mapBeyond">Beyond DPARt</span></strong><span class="milestone-label" data-i18n="mapBeyond">Beyond DPARt</span><span class="roadmap-diamond"></span><span class="roadmap-dot"></span><b>2030</b></li>
+            </ol>
+            <div class="roadmap-phases" aria-label="Project phases">
+              <div data-i18n="mapPhase1">Phase 1</div><div data-i18n="mapPhase2">Phase 2</div><div data-i18n="mapPhase3">Phase 3</div>
+            </div>
+          </div>
+        </section>
       </div>
     </section>
 
