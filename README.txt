@@ -21,6 +21,7 @@ Structuur
 - results.html: resultaten en hulpmiddelen
 - news.html: nieuws en evenementen
 - partners.html: projectpartners per expertisegroep
+- team.html: teampagina met profielen
 - contact.html: contactpagina
 - site-components.js: gedeelde header, navigatie, footer en sitegegevens
 - script.js: vertalingen, taalkeuze, mobiel menu en scrollanimaties

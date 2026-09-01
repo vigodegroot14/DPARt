@@ -20,6 +20,7 @@ const translations = {
     navResults: "Resultaten",
     navNews: "Nieuws & events",
     navPartners: "Partners",
+    navTeam: "Meet the team",
     navContact: "Contact",
 
     heroFullTitle:
@@ -182,7 +183,24 @@ const translations = {
     contactPageIntro: "Neem contact op met het DPARt-projectteam.",
     contactPageHeading: "Neem contact op met DPARt",
     contactPageText:
-      "Voor vragen over het project, samenwerking of communicatie kun je contact opnemen via het onderstaande e-mailadres."
+      "Voor vragen over het project, samenwerking of communicatie kun je contact opnemen via het onderstaande e-mailadres.",
+
+    teamPageTitle: "Meet the team",
+    teamPageIntro:
+      "Maak kennis met de mensen die samenwerken aan het DPARt-project.",
+    teamPhotoPlaceholder: "Foto volgt",
+    teamMemberName1: "Naam teamlid",
+    teamMemberRole1: "Rol binnen DPARt",
+    teamMemberText1:
+      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+    teamMemberName2: "Naam teamlid",
+    teamMemberRole2: "Rol binnen DPARt",
+    teamMemberText2:
+      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+    teamMemberName3: "Naam teamlid",
+    teamMemberRole3: "Rol binnen DPARt",
+    teamMemberText3:
+      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort."
   },
 
   en: {
@@ -199,6 +217,7 @@ const translations = {
     navResults: "Results",
     navNews: "News & events",
     navPartners: "Partners",
+    navTeam: "Meet the team",
     navContact: "Contact",
 
     heroFullTitle:
@@ -312,7 +331,7 @@ const translations = {
     partnerGroupAiText: "Chatbots & Serious Games",
     partnerGroupCommunityTitle: "Community of Practice",
     partnerGroupCommunityText:
-      "Municipalities, regional organisations, energy cooperations, VvE experts and end-user representatives",
+      "Municipalities, regional organisations, energy cooperatives, HOA experts and end-user representatives",
 
     aboutPageTitle: "About DPARt",
     aboutPageIntro:
@@ -325,7 +344,7 @@ const translations = {
       "DPARt investigates how digital support tools can make decision-making easier to understand, more transparent and more scalable.",
     aboutDetailTitle3: "Collaboration",
     aboutDetailText3:
-      "The project connects universities, universities of applied sciences, municipalities, IT companies, VvE experts and end users.",
+      "The project connects universities, universities of applied sciences, municipalities, IT companies, HOA experts and end users.",
 
     researchPageTitle: "Research",
     researchPageIntro:
@@ -335,10 +354,10 @@ const translations = {
       "Through interviews, workshops and Living Labs, the needs, barriers and preferences of stakeholders are incorporated.",
     researchTwinTitle: "Simulating collective decision-making",
     researchTwinText:
-      "The DPARt project develops simulation models that explore how VvE members interact and make collective decisions about energy renovations under different conditions.",
+      "The DPARt project develops simulation models that explore how HOA members interact and make collective decisions about energy renovations under different conditions.",
     researchAiTitle: "Learning and deciding using digital support tools",
     researchAiText:
-      "The project develops digital tools, including AI and gamification approaches, to support learning, communication, and collective decision-making in VvEs.",
+      "The project develops digital tools, including AI and gamification approaches, to support learning, communication, and collective decision-making in HOAs.",
 
     resultsPageTitle: "Results",
     resultsPageIntro:
@@ -361,7 +380,24 @@ const translations = {
     contactPageIntro: "Get in touch with the DPARt project team.",
     contactPageHeading: "Contact DPARt",
     contactPageText:
-      "For questions about the project, collaboration or communication, please use the email address below."
+      "For questions about the project, collaboration or communication, please use the email address below.",
+
+    teamPageTitle: "Meet the team",
+    teamPageIntro:
+      "Meet the people working together on the DPARt project.",
+    teamPhotoPlaceholder: "Photo coming soon",
+    teamMemberName1: "Team member name",
+    teamMemberRole1: "Role within DPARt",
+    teamMemberText1:
+      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+    teamMemberName2: "Team member name",
+    teamMemberRole2: "Role within DPARt",
+    teamMemberText2:
+      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+    teamMemberName3: "Team member name",
+    teamMemberRole3: "Role within DPARt",
+    teamMemberText3:
+      "A short introduction to this person, their expertise and contribution to the project will be added soon."
   }
 };
 
@@ -373,6 +409,7 @@ const pageMetadata = {
     results: ["Resultaten | DPARt", "Bekijk de digitale hulpmiddelen en kennisproducten die DPARt ontwikkelt voor collectieve besluitvorming over energierenovatie."],
     news: ["Nieuws en evenementen | DPARt", "Lees updates over DPARt-workshops, projectactiviteiten, evenementen en onderzoeksresultaten."],
     partners: ["Projectpartners | DPARt", "Bekijk de kennisinstellingen, technologiepartners, gemeenten en praktijkorganisaties die samenwerken binnen DPARt."],
+    team: ["Meet the team | DPARt", "Maak kennis met de mensen die samenwerken aan het DPARt-project."],
     contact: ["Contact | DPARt", "Neem contact op met het DPARt-projectteam voor vragen over onderzoek, samenwerking en communicatie."]
   },
   en: {
@@ -382,6 +419,7 @@ const pageMetadata = {
     results: ["Results | DPARt", "View the digital tools and knowledge products DPARt develops for collective decision-making on energy renovation."],
     news: ["News and events | DPARt", "Read updates about DPARt workshops, project activities, events and research outcomes."],
     partners: ["Project partners | DPARt", "Meet the knowledge institutions, technology partners, municipalities and practice organisations collaborating in DPARt."],
+    team: ["Meet the team | DPARt", "Meet the people working together on the DPARt project."],
     contact: ["Contact | DPARt", "Contact the DPARt project team with questions about research, collaboration and communications."]
   }
 };

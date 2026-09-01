@@ -21,6 +21,7 @@ function navigationLinks(homePage) {
     <a href="${prefix}#results" data-i18n="navResults">Resultaten</a>
     <a href="${prefix}#news" data-i18n="navNews">Nieuws &amp; events</a>
     <a href="${prefix}#partners" data-i18n="navPartners">Partners</a>
+    <a href="team.html" data-i18n="navTeam">Meet the team</a>
     <a href="${prefix}#contact" data-i18n="navContact">Contact</a>`;
 }
 
