@@ -1580,6 +1580,15 @@ button {
   text-transform: uppercase;
 }
 
+.team-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center 25%;
+  background: #eef8fc;
+}
+
 .team-card-copy {
   padding: clamp(24px, 3vw, 36px);
 }

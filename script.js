@@ -189,17 +189,25 @@ const translations = {
     teamPageIntro:
       "Maak kennis met de mensen die samenwerken aan het DPARt-project.",
     teamPhotoPlaceholder: "Foto volgt",
-    teamMemberName1: "Naam teamlid",
+    teamMemberName1: "D. Yang",
     teamMemberRole1: "Rol binnen DPARt",
     teamMemberText1:
       "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
-    teamMemberName2: "Naam teamlid",
+    teamMemberName2: "C. Smits",
     teamMemberRole2: "Rol binnen DPARt",
     teamMemberText2:
       "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
-    teamMemberName3: "Naam teamlid",
+    teamMemberName3: "G. Schouten",
     teamMemberRole3: "Rol binnen DPARt",
     teamMemberText3:
+      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+    teamMemberName4: "Q. Han",
+    teamMemberRole4: "Rol binnen DPARt",
+    teamMemberText4:
+      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+    teamMemberName5: "Q. Zhou",
+    teamMemberRole5: "Rol binnen DPARt",
+    teamMemberText5:
       "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort."
   },
 
@@ -386,17 +394,25 @@ const translations = {
     teamPageIntro:
       "Meet the people working together on the DPARt project.",
     teamPhotoPlaceholder: "Photo coming soon",
-    teamMemberName1: "Team member name",
+    teamMemberName1: "D. Yang",
     teamMemberRole1: "Role within DPARt",
     teamMemberText1:
       "A short introduction to this person, their expertise and contribution to the project will be added soon.",
-    teamMemberName2: "Team member name",
+    teamMemberName2: "C. Smits",
     teamMemberRole2: "Role within DPARt",
     teamMemberText2:
       "A short introduction to this person, their expertise and contribution to the project will be added soon.",
-    teamMemberName3: "Team member name",
+    teamMemberName3: "G. Schouten",
     teamMemberRole3: "Role within DPARt",
     teamMemberText3:
+      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+    teamMemberName4: "Q. Han",
+    teamMemberRole4: "Role within DPARt",
+    teamMemberText4:
+      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+    teamMemberName5: "Q. Zhou",
+    teamMemberRole5: "Role within DPARt",
+    teamMemberText5:
       "A short introduction to this person, their expertise and contribution to the project will be added soon."
   }
 };
