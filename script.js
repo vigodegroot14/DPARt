@@ -190,25 +190,31 @@ const translations = {
       "Maak kennis met de mensen die samenwerken aan het DPARt-project.",
     teamPhotoPlaceholder: "Foto volgt",
     teamMemberName1: "D. Yang",
-    teamMemberRole1: "Rol binnen DPARt",
+    teamMemberRole1: "WP2",
     teamMemberText1:
-      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+      "Universitair hoofddocent aan de Technische Universiteit Eindhoven (TU/e), gericht op het ontwikkelen en toepassen van datagedreven methoden en beslissingsondersteunende systemen voor duurzame stedelijke ontwikkeling, slimme steden, mobiliteit en energietransities.",
     teamMemberName2: "C. Smits",
-    teamMemberRole2: "Rol binnen DPARt",
+    teamMemberRole2: "WP2",
     teamMemberText2:
-      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+      "Promovendus aan de Technische Universiteit Eindhoven (TU/e), die collectieve besluitvorming binnen VvE's onderzoekt met behulp van agentgebaseerde modellering, met een focus op duurzame gebouwrenovatie en energietransities.",
     teamMemberName3: "G. Schouten",
-    teamMemberRole3: "Rol binnen DPARt",
+    teamMemberRole3: "WP3",
     teamMemberText3:
-      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+      "Lector bij Fontys Hogeschool, gericht op het ontwikkelen en toepassen van AI en datagedreven oplossingen voor duurzaamheidsvraagstukken en maatschappelijke uitdagingen.",
     teamMemberName4: "Q. Han",
-    teamMemberRole4: "Rol binnen DPARt",
+    teamMemberRole4: "WP4",
     teamMemberText4:
-      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort.",
+      "Universitair hoofddocent aan de Technische Universiteit Eindhoven (TU/e), die transitieprocessen in de gebouwde omgeving onderzoekt met behulp van AI, simulatiemodellering en datagedreven beslissingsondersteuning voor grondstoffenefficiënte en veerkrachtige steden.",
     teamMemberName5: "Q. Zhou",
-    teamMemberRole5: "Rol binnen DPARt",
+    teamMemberRole5: "WP3",
     teamMemberText5:
-      "Een korte introductie over deze persoon, diens expertise en bijdrage aan het project volgt binnenkort."
+      "Senior onderzoeker bij Fontys Hogeschool, gericht op het ontwikkelen en toepassen van AI en datagedreven oplossingen voor duurzame energie, groene AI en data-interoperabiliteit.",
+    teamMemberName6: "X. Peng",
+    teamMemberRole6: "WP1",
+    teamMemberName7: "Robert Goedegebure",
+    teamMemberRole7: "WP1",
+    teamMemberName8: "Lieke Nijdam",
+    teamMemberRole8: "WP1"
   },
 
   en: {
@@ -395,25 +401,31 @@ const translations = {
       "Meet the people working together on the DPARt project.",
     teamPhotoPlaceholder: "Photo coming soon",
     teamMemberName1: "D. Yang",
-    teamMemberRole1: "Role within DPARt",
+    teamMemberRole1: "WP2",
     teamMemberText1:
-      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+      "Associate Professor at Eindhoven University of Technology (TU/e), focused on developing and applying data-driven methods and decision support systems for sustainable urban development, smart cities, mobility, and energy transitions.",
     teamMemberName2: "C. Smits",
-    teamMemberRole2: "Role within DPARt",
+    teamMemberRole2: "WP2",
     teamMemberText2:
-      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+      "PhD candidate at Eindhoven University of Technology (TU/e), researching collective decision-making in VvEs through agent-based modelling, with a focus on sustainable building renovation and energy transitions.",
     teamMemberName3: "G. Schouten",
-    teamMemberRole3: "Role within DPARt",
+    teamMemberRole3: "WP3",
     teamMemberText3:
-      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+      "Lector at Fontys University of Applied Sciences, focused on developing and applying AI and data-driven solutions for sustainable and societal challenges.",
     teamMemberName4: "Q. Han",
-    teamMemberRole4: "Role within DPARt",
+    teamMemberRole4: "WP4",
     teamMemberText4:
-      "A short introduction to this person, their expertise and contribution to the project will be added soon.",
+      "Associate Professor at Eindhoven University of Technology (TU/e), researching transition processes in the built environment through AI, simulation modelling, and data-driven decision support for resource-efficient and resilient cities.",
     teamMemberName5: "Q. Zhou",
-    teamMemberRole5: "Role within DPARt",
+    teamMemberRole5: "WP3",
     teamMemberText5:
-      "A short introduction to this person, their expertise and contribution to the project will be added soon."
+      "Senior Researcher at Fontys University of Applied Sciences, focused on developing and applying AI and data-driven solutions for sustainable energy, Green AI, and data interoperability.",
+    teamMemberName6: "X. Peng",
+    teamMemberRole6: "WP1",
+    teamMemberName7: "Robert Goedegebure",
+    teamMemberRole7: "WP1",
+    teamMemberName8: "Lieke Nijdam",
+    teamMemberRole8: "WP1"
   }
 };
 

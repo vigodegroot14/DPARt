@@ -11,6 +11,7 @@
   --line: rgba(26, 107, 172, 0.16);
 
   --page-padding: clamp(20px, 5vw, 80px);
+  --section-spacing: clamp(48px, 6vw, 88px);
   --max-width: 1440px;
   --navbar-height: 78px;
 }
@@ -402,7 +403,7 @@ button {
 ========================================================= */
 
 .hero-introduction {
-  padding-block: clamp(90px, 12vw, 170px);
+  padding-block: var(--section-spacing);
 
   background: var(--white);
 }
@@ -448,7 +449,7 @@ button {
 ========================================================= */
 
 .section {
-  padding-block: clamp(110px, 14vw, 210px);
+  padding-block: var(--section-spacing);
 }
 
 .section-light {
@@ -468,11 +469,11 @@ button {
     minmax(160px, 0.6fr)
     minmax(300px, 2fr);
 
-  gap: clamp(50px, 10vw, 180px);
+  gap: clamp(28px, 5vw, 80px);
 }
 
 .section-heading-row {
-  margin-bottom: clamp(70px, 10vw, 130px);
+  margin-bottom: clamp(32px, 4vw, 56px);
 }
 
 .section-label {
@@ -511,7 +512,7 @@ button {
 
 .large-text {
   max-width: 850px;
-  margin-top: clamp(50px, 7vw, 90px);
+  margin-top: clamp(28px, 4vw, 48px);
 }
 
 .large-text p {
@@ -561,7 +562,7 @@ button {
 }
 
 .section-button-center {
-  margin: 58px auto 0;
+  margin: 36px auto 0;
 }
 
 .section-button-light {
@@ -582,7 +583,7 @@ button {
   padding:
     0
     var(--page-padding)
-    clamp(100px, 12vw, 180px);
+    var(--section-spacing);
 
   background: var(--background);
 }
@@ -1281,13 +1282,13 @@ button {
 .partners-section {
   overflow: hidden;
 
-  padding-block: clamp(90px, 11vw, 160px);
+  padding-block: var(--section-spacing);
 
   background: var(--white);
 }
 
 .partners-heading {
-  margin-bottom: clamp(55px, 7vw, 95px);
+  margin-bottom: clamp(28px, 4vw, 48px);
 }
 
 .partners-eyebrow {
@@ -1350,7 +1351,7 @@ button {
 }
 
 .partners-more {
-  padding-top: 55px;
+  padding-top: 32px;
 }
 
 @keyframes partner-logo-scroll {
@@ -1372,7 +1373,7 @@ button {
 }
 
 .subpage-hero {
-  padding-block: clamp(90px, 12vw, 160px);
+  padding-block: var(--section-spacing);
 
   background: var(--white);
 }
@@ -1389,7 +1390,7 @@ button {
 
 .subpage-lead {
   max-width: 850px;
-  margin: 48px 0 0;
+  margin: 32px 0 0;
 
   color: var(--muted);
 
@@ -1400,7 +1401,7 @@ button {
 .back-link {
   display: inline-block;
 
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 
   color: var(--primary-blue);
 
@@ -1409,7 +1410,7 @@ button {
 }
 
 .detail-section {
-  padding-block: clamp(90px, 11vw, 160px);
+  padding-block: var(--section-spacing);
 }
 
 .detail-grid {
@@ -1418,7 +1419,7 @@ button {
     130px
     1fr;
 
-  gap: clamp(35px, 8vw, 130px);
+  gap: clamp(24px, 4vw, 64px);
 }
 
 .detail-number {
@@ -1514,7 +1515,7 @@ button {
     1.4fr
     0.8fr;
 
-  gap: 80px;
+  gap: clamp(28px, 4vw, 48px);
   align-items: start;
 }
 
@@ -1550,14 +1551,14 @@ button {
 ========================================================= */
 
 .team-section {
-  padding-block: clamp(80px, 10vw, 150px);
+  padding-block: var(--section-spacing);
   background: var(--white);
 }
 
 .team-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: clamp(24px, 3vw, 42px);
+  gap: clamp(20px, 2vw, 28px);
 }
 
 .team-card {
@@ -1617,7 +1618,7 @@ button {
 ========================================================= */
 
 .partner-groups-section {
-  padding-block: clamp(80px, 10vw, 150px);
+  padding-block: var(--section-spacing);
 
   background: var(--white);
 }
@@ -1635,7 +1636,7 @@ button {
     minmax(420px, 0.95fr)
     minmax(0, 1.55fr);
 
-  gap: clamp(60px, 7vw, 120px);
+  gap: clamp(28px, 4vw, 56px);
   align-items: stretch;
 
   border: 1px solid rgba(21, 61, 99, 0.08);
@@ -1778,7 +1779,7 @@ button {
 ========================================================= */
 
 footer {
-  padding-block: clamp(70px, 10vw, 130px);
+  padding-block: var(--section-spacing);
 
   background: var(--white);
 }
@@ -1790,7 +1791,7 @@ footer {
     0.9fr
     0.85fr;
 
-  gap: clamp(45px, 6vw, 90px);
+  gap: clamp(28px, 4vw, 48px);
 }
 
 .footer-logo {
@@ -1900,7 +1901,7 @@ footer {
 .footer-bottom {
   grid-column: 1 / -1;
 
-  margin-top: 70px;
+  margin-top: 40px;
   padding-top: 30px;
 
   display: flex;
@@ -1980,7 +1981,7 @@ footer {
   }
 
   .detail-grid {
-    gap: 45px;
+    gap: 28px;
   }
 
   .footer-content {
@@ -2049,11 +2050,6 @@ footer {
   .section-title,
   .partners-heading h2 {
     font-size: clamp(43px, 13vw, 68px);
-  }
-
-  .section,
-  .detail-section {
-    padding-block: 90px;
   }
 
   .image-section {
