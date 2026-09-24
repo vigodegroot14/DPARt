@@ -1,0 +1,10 @@
+# Lokale caches en tijdelijke controles
+.edge-*/
+.tmp/
+__pycache__/
+*.pyc
+node_modules/
+layout-check*.png
+map-desktop*.png
+Thumbs.db
+.DS_Store
